@@ -481,7 +481,6 @@
                     <!-- Technology tags will be added here -->
                 </div>
                 <div class="modal-links">
-                    
                     <a href="https://github.com/TahmidHasanRafi" class="modal-link" id="modalLink2">GitHub</a>
                 </div>
             </div>
@@ -500,7 +499,7 @@
             const modalTitle = document.getElementById('modalTitle');
             const modalDescription = document.getElementById('modalDescription');
             const modalTech = document.getElementById('modalTech');
-            const modalLink1 = document.getElementById('modalLink1');
+            
             const modalLink2 = document.getElementById('modalLink2');
 
             let activeCards = [...cards]; // Cards currently in main carousel
@@ -698,7 +697,7 @@
                 };
 
                 const cardLinks = links[cardId] || { demo: "#", github: "#" };
-                modalLink1.href = cardLinks.demo;
+               
                 modalLink2.href = cardLinks.github;
             }
 
