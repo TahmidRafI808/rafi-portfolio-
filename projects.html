@@ -658,7 +658,7 @@
                 const cardId = card.getAttribute('data-id');
                 const descriptions = {
                     "0": "A decentralized NFT Marketplace built on ZKSync Era, allowing users to mint, list, buy, and view unique NFTs. The project uses Solidity smart contracts, a Flask backend, and a responsive HTML/CSS/JavaScript frontend, leveraging Web3.py and Filebase (S3 → IPFS) for asset storage.",
-                    "1": "The report details Smart KYC for Banks, the first-of-its-kind blockchain-led solution specifically designed to modernize KYC and loan origination in Bangladeshi financial industry. It is an initiative that has been strategically shaped to improve operating efficiency, reinforce the security of data and promote financial inclusion through use of the best available features in the open source community on a global scale. In Bangladesh, traditional banking operations — especially KYC and loan processing — are often held back by manual, paper-heavy processes. These approaches cause huge delays, operational inefficiencies, siloed data accessibility leading to increased costs and exclusion of financial services for a vast number of the population. Smart KYC for Banks tackles these issues head-on through deployment of a strong hybrid architecture. It uses a zkSync-based blockchain for identity and loan deal records that are verifiable, and IPFS is used for storing sensitive documents, in a secure and scalable way. The combination makes it a unified, open and Markable Ecosystem for the Digital Identity & Lending structures.",
+                    "1": "The report details Smart KYC for Banks, the first-of-its-kind blockchain-led solution specifically designed to modernize KYC and loan origination in Bangladeshi financial industry. It is an initiative that has been strategically shaped to improve operating efficiency, reinforce the security of data and promote financial inclusion through use of the best available features in the open source community on a global scale. In Bangladesh, traditional banking operations — especially KYC and loan processing — are often held back by manual, paper-heavy processes. These approaches cause huge delays, operational inefficiencies, siloed data accessibility leading to increased costs and exclusion of financial services for a vast number of the population. Smart KYC for Banks tackles these issues head-on through deployment of a strong hybrid architecture. It uses a zkSync-based blockchain for identity and loan deal records that are verifiable, and IPFS is used for storing sensitive documents, in a secure and scalable way. The combination makes it a unified, open and Markable Ecosystem for the Digital Identity & Lending structures. In particular, one of the main components of this platform is a new stable-coin called Etaka (ETA). The first financial service provided through the platform is digital loan disbursements using Etaka as the primary transfer medium, offering instant transparent low-cost transfers directly to wallets on its blockchain. Its digital-first method radically reduces the frictions — when compared to traditional bank transfers or cash disbursements for online transactions. Offline cash loan disbursements are available for users who may prefer or need physical funds. The loan agreement and its status are still securely recorded on the blockchain, thus providing transparency and an auditable legacy of every transaction, in cases like this it is simply that physical cash transfer happens though traditional banking channel. So, Etaka has a hybrid dual-disbursement model that can meet all user requirements, and maintain a unified and transparent record. The benefits of the project cover a broad spectrum, including forced streamlining of KYC onboarding times, reduction of operational cost for banks, increased fraud controls and prevention mechanisms, enhanced data integrity and most importantly greater financial inclusivity for the citizens in Bangladesh. The Smart KYC for Banks directly aligns with Bangladesh's national digital transformation agenda towards fostering a more agile and inclusive financial ecosystem.",
                     "2": "A transparent supply chain management solution leveraging blockchain technology to track products from origin to consumer, ensuring authenticity and reducing fraud.",
                     "3": "A real-time cryptocurrency conversion tool that provides accurate ETH to USD exchange rates with historical data visualization and market trend analysis."
                 };
@@ -669,10 +669,10 @@
             function setCardTech(card) {
                 const cardId = card.getAttribute('data-id');
                 const techStacks = {
-                    "0": ["Solidity", "React", "IPFS", "Web3.js", "Node.js"],
-                    "1": ["Hyperledger", "Zero-Knowledge Proofs", "React", "Node.js", "MongoDB"],
+                    "0": ["Solidity", "Flask", "Filebase (IPFS)", "Web3.py", "Node.js"],
+                    "1": ["Solidity", "Zero-Knowledge Proofs", "Flask", "Node.js", "Filebase(IPFS)"],
                     "2": ["Ethereum", "Smart Contracts", "React", "Python", "SQL"],
-                    "3": ["JavaScript", "API Integration", "Chart.js", "HTML/CSS", "Express"]
+                    "3": ["Solidity", "oracle"]
                 };
 
                 modalTech.innerHTML = '';
@@ -783,6 +783,7 @@
 
 
 </html>
+
 
 
 
